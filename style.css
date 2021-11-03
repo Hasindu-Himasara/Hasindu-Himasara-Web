@@ -1,17 +1,14 @@
-<html>
-<head>  
-<title>Animated Text</title>
-<link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <div class="text-box">
-    <span>A</span>
-    <span>V</span>
-    <span>I</span>
-    <span>N</span>
-    <span>A</span>
-    <span>S</span>
-    <span>H</span>
-    </div>
-</body>
-</html>
+/* The animation code */
+@keyframes example {
+  from {background-color: red;}
+  to {background-color: yellow;}
+}
+
+/* The element to apply the animation to */
+div {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  animation-name: example;
+  animation-duration: 4s;
+}
