@@ -1,28 +1,106 @@
 <!DOCTYPE html>
 <html>
-<style>
-#div1 {
-  font-size:48px;
+<head>
+	<title>Sign in and Sign Up Form</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <style>
+  h3.ex1 {
+  margin-left: 20%;
+  margin-top: 15%;
+
 }
-</style>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<body>
+div1.ex1{
+	 margin-left: 28%;
+  margin-top: 15%;
+}
 
-<div id="div1" class="fa"></div>
+h3.ex2 {
+  margin-left: 70%;
+  margin-top: 0%;
+  }
 
+ form.ex1 {
+  margin-left: 73%;
+  margin-top: 0%;
+  }
+
+
+
+    body {
+      background-image: url("157.jpg"),url("janir.jpg");
+      background-repeat: no-repeat.repeat;
+      background-attachment: fixed;
+      background-size: cover;
+
+  }
+  </style>
+   <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-TJWG3TDLYN"></script>
 <script>
-function brakechain() {
-  var a;
-  a = document.getElementById("div1");
-  a.innerHTML = "&#xf0c1;";
-  setTimeout(function () {
-      a.innerHTML = "&#xf127;";
-    }, 1000);
-}
-brakechain();
-setInterval(brakechain, 2000);
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-TJWG3TDLYN');
 </script>
 
-<p>This example demonstrates how to use an icon library to make an animated effect.</p>
+    
+    <script
+      src="https://kit.fontawesome.com/64d58efce2.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="first-index.css" />
+</head>
+<body>
+
+
+		<h3 style="font-family:verdana;"class="ex1">Hasindu ආයතනයේ ලියාපදිංචි වීම.</h3>
+	
+	<div1 class = "ex1" "container">
+     <button type="button" class="btn btn-danger">Click</button><br><br>
+
+     <h3 class = "ex2"> පන්තිවලට පිවිසෙන්න...(Login) </h3><br>
+     
+    <form class="ex1" action="#">
+  <div1 class="input-field">
+              <i class="fas fa-user"></i>
+              <input type="text" placeholder="User ID / Phone Number" name="mobile1" id="mobile1" size="25" maxlength="8"/><br>
+              <span class="error"> username</span><br><br>
+            </div1>
+	
+ <div class="input-field">
+              <i class="fas fa-lock"></i>
+              <input type="password" placeholder="Password" name="password1" id="password1" size="25"maxlength="6" /><br>
+              <span class="error"> Password</span>  <br><br>           
+
+            </div>
+             <input type="checkbox" onclick="myFunction()">Remember me<br><br>
+            <input type="submit" value="ඇතුළුවන්න " class="btn btn-primary" name="login" />
+
+    <!-- <p class="social-text">Or Sign in with social platforms</p>
+            <div class="social-media">
+              <a href="#" class="social-icon">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+              <a href="#" class="social-icon">
+                <i class="fab fa-twitter"></i>
+              </a>
+              <a href="#" class="social-icon">
+                <i class="fab fa-google"></i>
+              </a>
+              <a href="#" class="social-icon">
+                <i class="fab fa-linkedin-in"></i>
+              </a>
+            </div> -->
+	</form>
+
+
+
 </body>
 </html>
